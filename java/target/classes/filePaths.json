@@ -1,0 +1,9 @@
+{
+  "__comment": "Basic Settings for bigdiff4j",
+  
+  "outputPath":"/media/hdd/db/Timeline/output",
+  "gzippedTurtleDir":"/media/hdd/db/Timeline/freebase_gz/",
+  "gzippedTurtleFileOld":"freebase-rdf-old.gz",
+  "gzippedTurtleFileNew":"freebase-rdf-latest.gz"
+
+}
