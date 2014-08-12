@@ -33,8 +33,8 @@ Other compiler flags
 -D__GXX_EXPERIMENTAL_CXX0X__
 
 ###Running the Binary
-Big Diff:
-bigdiff binary expects 3 arguments, <path to old gzip> <path to new gzip> <output path>. Currently using Freebase datadump 1 week apart
+####Big Diff:
+bigdiff binary expects three arguments: <i>path to old gzip, path to new gzip, output path</i>
 
-Test:
-to test, provide one argument <path-to-gzip>
+####Test:
+bigdiff test expects one argument: <i>path to a gzip</i>
