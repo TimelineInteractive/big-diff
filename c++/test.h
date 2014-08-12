@@ -16,15 +16,15 @@ class Test {
     std::string large_file = "/tmp/large";
     std::string test_output_dir = "/tmp/test_hashes/";
     std::string in_file_path;
-    static int CountLines(std::string filepath);
-    static void GzipFile(std::string file_to_zip);
-    void LookupDiffs(std::ifstream& in, std::unordered_set<std::string>& expected);
+    static int CountLines( std::string filepath );
+    static void GzipFile( std::string file_to_zip );
+    void LookupDiffs( std::ifstream& in, std::unordered_set<std::string>& expected );
     
     public:
         void TestDiffAccuracy( int total_num_lines, int num_diff_lines );
         void TestHashDiffing();
-        void TestHashSpeed(int num_lines);
-        Test(std::string in_file_path);
+        void TestHashSpeed( int num_lines );
+        Test( std::string in_file_path );
 };
 
 #endif
