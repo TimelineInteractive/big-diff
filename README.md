@@ -1,7 +1,7 @@
-big-diff
+BigDiff
 ========
 
-BigDiff – A tool for comparing very large (100GB+), line-oriented data sets.
+A tool for comparing very large (100GB+), line-oriented data sets.
 
 BigDiff was created to find the differences between similar RDF [N-Triples](http://en.wikipedia.org/wiki/N-Triples) files (for example, consecutive weekly dumps of [Freebase](https://www.freebase.com/)).
 
