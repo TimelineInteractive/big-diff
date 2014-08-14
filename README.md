@@ -16,4 +16,4 @@ Both versions of BigDiff expect their input files to be compressed with gzip, an
 
 You can read about the development process in more detail in our blog post, ["Making a Big Difference"](http://axioms.io/zen/2014-06-04-fsk-glass/).
 
-Both versions of BigDiff are ©2014 Timeline.com, Inc. and are available under the terms of the attached MIT license. BigDiff was developed in conjunction with [Axiom Zen](https://axiomzen.co).
+Both versions of BigDiff are ©2014 [Timeline.com, Inc.](http://timeline.com/) and are available under the terms of the attached MIT license. BigDiff was developed in conjunction with [Axiom Zen](https://axiomzen.co).
