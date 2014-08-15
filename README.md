@@ -12,7 +12,7 @@ However, it should work on any pair of files with the following characteristics:
 
 If you are concerned only with performance, the C++ version is significantly faster (approximately 40% less execution time on the same input). The Java version is included as a rapid-iteration platform to test new performance ideas.
 
-Both versions of BigDiff expect their input files to be compressed with gzip, and have been tested on several pairs of consecutive [Freebase data dumps](https://developers.google.com/freebase/data). These data files are approximately 26GB compressed, representing 300GB of uncompressed data. BigDiff is able to find all differences using approximately 20GB of virtual memory space. Running on a commodity PC with 16GB of physical RAM, BigDiff can complete its task in less than two hours with minimal swapping.
+Both versions of BigDiff expect their input files to be compressed with gzip, and have been tested on several pairs of consecutive [Freebase data dumps](https://developers.google.com/freebase/data). These data files are approximately 26GB compressed, representing 300GB of uncompressed data. BigDiff is able to find all differences using approximately 20GB of virtual memory space. Running against the aforementioned Freebase dataset (300GB per input file, ~10% different) on a commodity PC with 16GB of physical RAM, BigDiff can complete its task in less than two hours with minimal swapping.
 
 You can read about the development process in more detail in our blog post, ["Making a Big Difference"](http://axioms.io/zen/2014-06-04-fsk-glass/).
 
